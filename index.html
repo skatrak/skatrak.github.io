@@ -1,10 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
     <title>Test</title>
 </head>
-<body>
-    This is a test.
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar sticky-top navbar-dark bg-dark">
+        <div class="container-fluid">
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a class="nav-link link-light" href="#introduction">Introduction</a></li>
+                <li class="nav-item"><a class="nav-link link-light" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link link-light" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link link-light" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link link-light" href="#publications">Publications</a></li>
+                <li class="nav-item"><a class="nav-link link-light" href="#projects">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container">
+        <hr/>
+
+        <!--Header-->
+        <div class="row align-items-center" id="introduction">
+            <div class="col-8">
+                <h1>Sergio Afonso</h1>
+                <strong>Some introduction statement about myself. asdlkfer ieur lseiu sleirusldkjf lsie slefj slkdjf lesiifjdslfieus lfkj.</strong>
+
+                <div class="container-fluid mx-0 px-0">
+                    <div class="row justify-content-center mt-3 mb-2">
+                        <p>
+                            <span class="badge bg-dark">Spanish</span>
+                            <span class="badge bg-dark">English</span>
+                        </p>
+                    </div>
+                    <div class="row align-items-end justify-content-center">
+                        <div class="col">
+                            <a href="mailto://theSkatrak@gmail.com"><i class="bi-envelope link-dark"></i></a>
+                        </div>
+                        <div class="col">
+                            <a href="https://linkedin.com/in/sergioafonsofumero" target="_blank"><i class="bi-linkedin link-dark"></i></a>
+                        </div>
+                        <div class="col">
+                            <a href="https://github.com/skatrak" target="_blank"><i class="bi-github link-dark"></i></a>
+                        </div>
+                        <div class="col">
+                            <a href="https://t.me/skatrak" target="_blank"><i class="bi-telegram link-dark"></i></a>
+                        </div>
+                        <div class="col">
+                            <a href="skype:theskatrak?chat"><i class="bi-skype link-dark"></i></a>
+                        </div>
+                        <div class="col">
+                            <a href="https://twitter.com/theSkatrak" target="_blank"><i class="bi-twitter link-dark"></i></a>
+                        </div>
+                        <div class="col-6"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="profile.jpg" class="img-fluid" alt="Profile picture">
+            </div>
+        </div>
+
+        <hr/>
+
+        <div class="row" id="skills">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-evenly">
+                    <div class="col-2 col-md-1">C++</div>
+                    <div class="col-4 col-md-2">
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="col-2 col-md-1">Java</div>
+                    <div class="col-4 col-md-2">
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="col-2 col-md-1">Python</div>
+                    <div class="col-4 col-md-2">
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="col-2 col-md-1">OpenCL</div>
+                    <div class="col-4 col-md-2">
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="col mt-3">
+                        <p>
+                            <span class="badge bg-light text-dark">Metal &amp; Punk</span>
+                            <span class="badge bg-light text-dark">Electric Guitar</span>
+                            <span class="badge bg-light text-dark">Recording</span>
+                            <span class="badge bg-light text-dark">Drumming</span>
+                            <span class="badge bg-light text-dark">Racing</span>
+                            <span class="badge bg-light text-dark">Archery</span>
+                            <span class="badge bg-light text-dark">Skating</span>
+                            <span class="badge bg-light text-dark">Roller-Coasters</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr/>
+
+        <div class="row" id="education">
+        </div>
+
+        <div class="row" id="experience">
+        </div>
+
+        <div class="row" id="publications">
+        </div>
+
+        <div class="row" id="projects">
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
