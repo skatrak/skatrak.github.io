@@ -1,0 +1,31 @@
+{
+    "skills": [
+        {
+            "name": "C++",
+            "amount": 85
+        },
+        {
+            "name": "Java",
+            "amount": 85
+        },
+        {
+            "name": "Python",
+            "amount": 75
+        },
+        {
+            "name": "OpenCL",
+            "amount": 75
+        }
+    ],
+    "interests": [
+        "Punk & Metal",
+        "Electric Guitar",
+        "Music Recording",
+        "Drumming",
+        "Racing",
+        "Archery",
+        "Skateboarding",
+        "Horror Movies",
+        "Thrill Rides"
+    ]
+}
